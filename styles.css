@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+* {
+    border-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outercontainer {
+    background: rgb(72,69,228);
+    background: linear-gradient(100deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 60%);
+    height: 550px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+    list-style: none;
+    padding: 30px 0px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link:link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ED4385;
+    text-decoration: none;
+}
+
+.h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 33px;
+    margin: 65px 10px 30px 10px;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ED4385;
+    text-align: center;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 3px 4px black;
+}
+
+.kronkel {
+    padding-top: 55px;
+    z-index: 1;
+}
+
+.skewedheader {
+    width: 100%;
+    background: linear-gradient(100deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 60%);
+    position: relative;
+    transform: skew(0deg, 3deg);
+    top: -75px;
+}
+
+/* Main part of website */
+
+main {
+    height: 600px;
+}
+
+.hello {
+    color: #F2F0FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 170px;
+    text-align: center;
+    letter-spacing: -13px;
+    margin-top: 110px;
+    z-index: 2;
+    /*opacity: 60%;*/
+}
+
+.text1 {
+    margin-top: -100px;
+    text-align: center;
+    font-size: 25px;
+    color: #5722CD;
+    z-index: 1;
+}
+
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.link2 {
+    color: #5722CD;
+    text-decoration: none;
+}
+
+.skewed2 {
+    width: 100%;
+    background-color: #F3F6F9;
+    position: relative;
+    transform: skew(0deg, 3deg);
+    top: 20px;
+}
+
+
+/* Start gray part of website */
+
+.grayarea {
+    background: #F3F6F9;
+    height: 2050px;
+    color: black;
+    padding: 20px;
+}
+
+#work {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 170px;
+    font-weight: 950;
+    text-align: center;
+    letter-spacing: -10px;
+    margin-top: 30px;
+}
+
+.img {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.rollingstone {
+    margin-top: -75px;
+}
+
+.view {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+h {
+    font-size:35px
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+.skewed3 {
+    width: 100%;
+    background-color: #F3F6F9;
+    position: relative;
+    transform: skew(0deg, 3deg);
+    top: -13px;
+}
+
+/* Services Area */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2700px;
+}
+
+#serv {
+    color: #F2F0FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    font-weight: 950;
+    text-align: center;
+    letter-spacing: -10px;
+    opacity: 60%;
+    font-stretch: condensed;
+}
+
+.box {
+    background-color: white;
+    width: 370px;
+    height: 370px;
+    box-sizing: border-box;
+    padding: 30px 40px 30px 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5722CD;
+    margin: 20px;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.boxtitle {
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    color: #5722CD;
+}
+
+.boxtext {
+    font-size: 16px;
+    color: #7A7A7A;
+}
+
+/* Footer part of the website */
+
+.footer {
+    background: rgb(72,69,228);
+    background: linear-gradient(100deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 60%);
+    height: 800px;
+    text-align: center;
+    color: white;
+}
+
+.skewed {
+    width: 100%;
+    background: linear-gradient(100deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 60%);
+    position: relative;
+    transform: skew(0deg, 3deg);
+    top: 0px;
+}
+
+h1 {
+    padding-top: 100px;
+}
+
+.form {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+}
+
+.placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 10px 0px 0px 10px;
+}
+
+.send {
+    width: 165px;
+    height: 60px;
+}
+
+/* End mobile version code */
+
+
+
+
+/* Desktop version code below */
+
+@media screen and (min-width: 1200px) {
+
+.hello {
+    font-size: 500px;
+    margin-top: 0px;
+}
+
+.text1 {
+    margin-top: -420px;
+    font-size: 34px;
+    padding: 0px 320px 0px 320px;
+}
+
+.text2 {
+    padding-top: 50px;
+}
+
+main {
+    margin-bottom: 90px;
+}
+
+.skewedheader {
+        transform: skew(0deg, 1deg);
+        top: 10px;
+    }
+
+
+/* Work part of website */
+
+.skewed2 {
+        transform: skew(0deg, 1deg);
+        top: 12px;
+    }
+
+#work {
+    font-size: 480px;
+    z-index: 2;
+}
+
+.grayarea {
+    padding: 0px 200px 0px 200px;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 150px 300px 300px 300px;
+    grid-gap: 50px;
+    grid-template-areas:
+    "work work"
+       "a b"
+       "c d"
+       "e f";
+}
+
+#work {
+    grid-area: work;
+}
+
+.rollingstone {
+    grid-area: b;
+}
+
+.rs {
+    grid-area: a;
+    width: 400px;
+}
+
+.variety {
+    grid-area: c;
+}
+
+.vr {
+    grid-area: d;
+    width: 400px;
+}
+
+.worth {
+    grid-area: f;
+}
+
+.wr {
+    grid-area: e;
+    width: 400px;
+}
+
+.skewed3 {
+    top: -102px;
+    transform: skew(0deg, 1deg);
+}
+
+/* Services part of website */
+
+.services {
+    height: 1200px;
+    padding: 0px 200px 0px 200px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 150px 370px 370px;
+    grid-gap: 30px;
+    grid-template-areas:
+       "serv serv serv"
+       "one two three"
+       "four five six";
+}
+
+#serv {
+    grid-area: serv;
+    font-size: 250px;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+/* Footer part of website */
+
+.skewed {
+        transform: skew(0deg, 1deg);
+        top: 0px;
+    }
+
+.form {
+    padding: 0px 0px 0px 380px;
+}
+
+.placeholder {
+    width: 700px;
+    padding: 10px 0px 0px 10px;
+}
+
+}
